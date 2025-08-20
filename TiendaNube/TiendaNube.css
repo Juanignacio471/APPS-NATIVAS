@@ -1,0 +1,336 @@
+body{
+    margin: 0;
+    background-color: #0d6efd;;
+    margin-right: 0;
+    margin-block: 0;
+}
+header{
+    align-self: stretch;
+    display: flex;
+    padding-left: 8%;
+    padding-top: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+    align-items: center
+    
+}
+#logo{
+    margin: 0;
+    height: 120px;
+    width: 170px;
+}
+
+#section1{
+    background-color: #0d6efd;
+    color: white;
+    margin: 0;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+    display: flex;
+   
+}
+#creartienda1{
+    background-color: white;
+    color: #0d6efd;
+    font-size: 100%;
+    border-radius: 20px;
+    transition: all .3s var(--transition-timing);
+    text-align: center;
+    font-family: var(--main-font-family);
+    box-sizing: border-box;
+    padding-block: 10px;
+    padding-inline: 6px;
+    position: relative;
+    border-color: #0d6efd;  
+}
+
+#informacion{
+    margin: 0;
+    padding-bottom: 1%;
+    color: white;
+    padding-right: 10%;
+    
+}
+#infosec1{
+    padding-left: 10%;
+}
+.imagen1{
+    height: auto;
+    width: 600px;
+}
+#divimg{
+    padding-left: 42%;
+}
+#Login{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 250%;
+    height: 200%;
+}
+#texto{
+    font-size: var(--font-size-body-root);
+    line-height: 1.3;
+    height: 200%;
+    color: var(--section-body-color);
+      
+}
+img{
+    height: 40px;
+    display: flex;
+    padding-left: 1%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: auto;
+}
+#ingresa-email{
+ margin: 0%;
+}
+#email{
+    background-color: white;
+    font-size: 150%;
+    border-radius: 100px;
+    border: 1px solid var(--input-border-color);
+    font-family: var(--main-font-family);
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    transition: 200ms;
+    justify-content: space-between;
+}
+#Creartienda{
+    background-color: #0d6efd;
+    color: white;
+    font-size: 140%;
+    border-radius: 20px;
+    transition: all .3s var(--transition-timing);
+    text-align: center;
+    font-family: var(--main-font-family);
+    box-sizing: border-box;
+    padding-block: 10px;
+    padding-inline: 6px;
+    position: relative;
+    border-color: #0d6efd;
+
+}
+.conteiner{ 
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 0;
+    margin-left: 0;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    display: flex;
+}
+#titulo2{
+    font-size: 42px;
+    justify-content: center;
+    margin-top: 0;
+    box-sizing: border-box;
+    display: flex;
+    color: #171e43;
+}
+
+
+#section2{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+#container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+#tarjeta{
+    display: block;
+    padding: 0%;
+    border:1px solid #0d6efd;
+    border-radius: 10px;
+    width: 10%;
+    font-size: 15px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+}
+
+
+#section3{
+    background-color: white;
+    color: black;
+}
+#tituloSec3{
+    font-size: 42px;
+    justify-content: center;
+    margin-top: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+#imagen2{
+    height: 480px;
+    width: 480px;
+    display: flex;
+}
+#subtitulo3{
+    margin: 0;
+    font-size: 25px;
+}
+#Preguntas{
+    display: block;
+    border-radius: 1px solid white;
+    width: 20%;
+}
+#creartienda2{
+    background-color: #0d6efd;
+    color: white;
+    font-size: 120%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: var(--main-font-family);
+    box-sizing: border-box;
+    padding-block: 10px;
+    padding-inline: 6px;
+    position: relative;
+    border-color: #0d6efd;
+}
+
+
+
+#section4{
+    background-color:#0d6efd;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10;
+}
+#titulosec4{
+
+    font-size: 30px;
+    width: 0%;
+    padding: 10px;
+}
+#testimonio{
+    display: block;
+    color: rgb(63, 59, 59);
+    border-radius: 30px;
+    border-color: white;
+    background-color: white;
+    width: 50%;
+    font-size: 30px;
+    padding: 5%;
+    font-weight: var(--font-weight-regular);
+    margin: 30px;
+    box-sizing: border-box;
+}
+#comillas{
+ font-size: 120px;
+    line-height: 1;
+    max-height: 50px;
+    margin-left: -6px;
+}
+
+
+#section5{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+#titulosec5{
+    font-size: 42px;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px;
+}
+#tarjeta2{
+    display: block;
+    padding: 1%;
+    border:1px solid #0d6efd;
+    border-radius: 10px;
+    width: 65%;
+    font-size: 20px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+
+
+#section6{
+    background-color: white;
+    color: black;
+}
+#divsec6{
+    display: flex;
+}
+#imagen3{
+    height: 350px;
+    width: 500px;
+}
+
+
+
+#section7{
+    background-color: white;
+    color: black;
+}
+#titulosec7{
+    font-size: 22px;
+    display: flex;
+    border: 10px solid white;
+    width: 50%;
+    font-weight: bold;
+    flex: 1;
+}
+#Preguntas{
+    flex: 2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    width: 80%;
+}
+
+
+
+#section8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 20px;
+}
+#redes{
+    font-size: 1px;
+}
