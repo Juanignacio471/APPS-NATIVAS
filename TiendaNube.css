@@ -25,12 +25,7 @@ header{
     background-color: #0d6efd;
     color: white;
     margin: 0;
-    padding-top: 31px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 30px;
     display: flex;
-   
 }
 #creartienda1{
     background-color: white;
@@ -51,27 +46,23 @@ header{
     margin: 0;
     padding-bottom: 1%;
     color: white;
-    padding-right: 10%;
     
 }
 #infosec1{
-    padding-left: 10%;
+    display: flex;
 }
 .imagen1{
     height: auto;
     width: 600px;
 }
-#divimg{
-    padding-left: 42%;
-}
+
 #Login{
     text-decoration: none;
     color: white;
     font-size: 19px;
     font-weight: 400;
     line-height: 18px;
-    padding-top: 10px;
-    padding-right: 20px;
+
 }
 
 h1{
